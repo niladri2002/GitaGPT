@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.active{
+    color: #5f99be;
+}
+
+
+.backgroun{
+    background: linear-gradient(rgba(0, 8, 51, 0.9),rgba(0,8,51,0.9)),url("back.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7)url("back.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+
+.navlist{
+    width: 79%;
+  /*  background-color: black;*/
+    display: flex;
+   /* justify-content: center; /*horizontally center*/
+    align-items: center;     /*vertically center*/
+}
+
+.navlist h1{
+    justify-content: left;
+    text-align: left;
+    padding: 0 16px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: left;
+    margin: 15px 37px;
+    align-items: center;
+}
+
+.logo img{
+    width: 28%;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.navlist li{
+    list-style: none;
+    padding: 26px 30px;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    }
