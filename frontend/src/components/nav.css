@@ -64,8 +64,20 @@
 .navlist li{
     list-style: none;
     padding: 26px 30px;
-    font-size: large;
+    font-size: 25px;
     font-weight: 600;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+
     }
+
+.navlist li a{
+    text-decoration: none;
+   color: white;
+}
+
+
+.navlist li :hover {
+    text-decoration: underline;
+    color: green;
+     }

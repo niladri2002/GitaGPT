@@ -13,8 +13,8 @@ const[home,nothome]=useState(true)
        <img src={require('./top.jpg')} alt='Picture'></img>
       <h1>GITAGPT</h1>
       </div>
-     <li onClick={()=>nothome(true)}><NavLink to="/Home">Home</NavLink></li>
-        <li onClick={()=>nothome(false)}><NavLink to="/">About</NavLink></li>
+     <li className={home?'active':""  }   onClick={()=>nothome(true)}><NavLink to="/Home">Home</NavLink></li>
+        <li className={!home?'active':""  }onClick={()=>nothome(false)}><NavLink to="/">About</NavLink></li>
         </div>
       </nav>
     </div>

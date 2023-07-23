@@ -90,6 +90,41 @@
     cursor: pointer;
     
 }
+.btn1{
+  border: 2px solid gray;
+  background: rgb(0, 246, 0);
+  font-weight: 100;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-weight: 100;
+  font-size: 19px;
+  border-radius: 7px 7px 7px 7px;
+  padding: 5%;
+  margin: 15px 40px;
+  box-sizing: border-box;
+  color: black}
+ 
+  
+  .btn2{
+    border: 2px solid gray;
+    background: rgb(240, 6, 6);
+    font-weight: 100;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-weight: 100;
+    font-size: 19px;
+    border-radius: 7px 7px 7px 7px;
+    padding: 5%;
+    margin: 15px 40px;
+    box-sizing: border-box;
+    color: black}
+
+    .buttonandtrans{
+      display: flex;
+      flex-direction: column;
+    }
+
+
 .microphone{
     padding: auto;
     width: 4%;
@@ -121,7 +156,7 @@
 }
 
 .transparent{
-width: 60%;
+width: 70%;
 overflow: scroll;
 background: rgba(0,0,0,.1);
 max-height: 50%;
@@ -132,9 +167,9 @@ color: aliceblue;
 
 .transparent p{
   font-weight: 600;
-  font-size: 19px;
+  font-size: 22px;
   font-family: 'Ubuntu', sans-serif;
-  color: rgb(4, 239, 66);
+  color: rgb(4, 8, 239);
 }
 
 
@@ -142,7 +177,24 @@ color: aliceblue;
   font-weight: 600;
   font-size: 16px;
   font-family: 'Ubuntu', sans-serif;
+
+
 }
+
+.below-btn{
+  justify-content: center;
+  align-items: center;
+ display: flex;
+ flex-direction: column;
+ width: fit-content;
+
+}
+
+
+
+
+
+
 div::-webkit-scrollbar{
   display: none;
 }
