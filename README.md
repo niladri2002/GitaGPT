@@ -1,5 +1,3 @@
-Sure! Below is an updated README file, considering the folder structure you mentioned, with separate sections for the frontend and backend:
-
 # GitaGPT: Wisdom from the Bhagavad Gita with AI
 
 Welcome to GitaGPT, a project dedicated to utilizing the timeless wisdom of the Bhagavad Gita to address real-life challenges. We combine the ancient teachings of the Gita with cutting-edge AI technology to generate insightful responses to various problems people face in their daily lives.
