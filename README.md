@@ -1,3 +1,5 @@
+Sure! Below is an updated README file, considering the folder structure you mentioned, with separate sections for the frontend and backend:
+
 # GitaGPT: Wisdom from the Bhagavad Gita with AI
 
 Welcome to GitaGPT, a project dedicated to utilizing the timeless wisdom of the Bhagavad Gita to address real-life challenges. We combine the ancient teachings of the Gita with cutting-edge AI technology to generate insightful responses to various problems people face in their daily lives.
@@ -6,6 +8,7 @@ Welcome to GitaGPT, a project dedicated to utilizing the timeless wisdom of the 
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Folder Structure](#folder-structure)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -17,7 +20,11 @@ Welcome to GitaGPT, a project dedicated to utilizing the timeless wisdom of the 
 
 The Bhagavad Gita is a revered Hindu scripture offering guidance and inspiration to millions of people worldwide. At GitaGPT, we leverage OpenAI's GPT-3 language model to generate AI-generated responses based on carefully crafted prompts inspired by the Bhagavad Gita.
 
-Our team of experts has curated a collection of common life challenges, ranging from personal growth and relationships to career and purpose. By interacting with the GitaGPT API, users can receive responses inspired by Lord Krishna's wisdom from the Bhagavad Gita.
+Our project consists of two main components:
+
+1. The frontend, built using React, provides a user-friendly web interface for users to interact with GitaGPT and receive insightful responses.
+
+2. The backend, created with Node.js and Express, handles API requests from the frontend, interacts with the OpenAI GPT-3 language model, and returns the AI-generated responses.
 
 ## Features
 
@@ -25,6 +32,33 @@ Our team of experts has curated a collection of common life challenges, ranging 
 - Explore solutions to various life challenges, all derived from the ancient wisdom of the Gita.
 - Enjoy a user-friendly web interface to interact with GitaGPT.
 - Listen to AI-generated responses using the text-to-speech feature.
+
+## Folder Structure
+
+```
+GitaGPT/
+  ├── frontend/
+  │   ├── public/
+  │   ├── src/
+  │   │   ├── components/
+  │   │   ├── App.js
+  │   │   ├── index.js
+  │   │   └── ...
+  │   ├── package.json
+  │   └── ...
+  └── server/
+      ├── node_modules/
+      ├── src/
+      │   ├── routes/
+      │   ├── index.js
+      │   └── ...
+      ├── .env
+      ├── package.json
+      └── ...
+```
+
+- The `frontend` folder contains all the files and code related to the React frontend of the application.
+- The `server` folder contains the Node.js and Express backend code.
 
 ## Getting Started
 
@@ -42,38 +76,45 @@ Our team of experts has curated a collection of common life challenges, ranging 
    cd GitaGPT
    ```
 
-2. Install the required dependencies:
+2. Install the required dependencies for the frontend:
 
    ```bash
+   cd frontend
    npm install
    ```
 
-3. Set up environment variables:
+3. Install the required dependencies for the backend:
 
-   - Create a `.env` file in the root directory.
-   - Add the following line to the `.env` file and replace `YOUR_OPENAI_API_KEY` with your actual OpenAI API key:
-
-     ```
-     OPENAI_API_KEY=YOUR_OPENAI_API_KEY
-     ```
+   ```bash
+   cd ../server
+   npm install
+   ```
 
 ### How to Use
 
-1. Start the server:
+1. Start the backend server:
 
    ```bash
+   cd server
    npm start
    ```
 
-2. Access the GitaGPT web application in your browser at `http://localhost:5000`.
+2. Start the frontend development server:
 
-3. On the home page, enter your query or problem in the input field and click the "Find Wisdom" button.
+   ```bash
+   cd frontend
+   npm start
+   ```
 
-4. GitaGPT will respond with an AI-generated answer inspired by Lord Krishna's teachings from the Bhagavad Gita.
+3. Access the GitaGPT web application in your browser at `http://localhost:3000`.
 
-5. You can listen to the response by clicking the "Listen" button or stop the speech using the "Stop" button.
+4. On the home page, enter your query or problem in the input field and click the "Find Wisdom" button.
 
-6. To interact with GitaGPT using voice, click the microphone icon, and start speaking. GitaGPT will process your speech input and provide the corresponding response.
+5. GitaGPT will respond with an AI-generated answer inspired by Lord Krishna's teachings from the Bhagavad Gita.
+
+6. You can listen to the response by clicking the "Listen" button or stop the speech using the "Stop" button.
+
+7. To interact with GitaGPT using voice, click the microphone icon, and start speaking. GitaGPT will process your speech input and provide the corresponding response.
 
 ## Contributing
 
