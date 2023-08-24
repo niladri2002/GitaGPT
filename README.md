@@ -122,6 +122,3 @@ We welcome contributions from the community to enhance GitaGPT's capabilities an
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of this license.
 
----
-
-This README provides a general structure and overview of the GitaGPT project. You can modify it as needed to include more details about your project, installation instructions, usage examples, and any other relevant information. Make sure to keep it up to date and informative for users and potential contributors.
