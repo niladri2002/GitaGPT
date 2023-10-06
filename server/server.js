@@ -84,7 +84,7 @@ app.post('/api', async(req, res) => {
 
 
  try{
-const api_res=await fetch("YOUR OPEN_AI API",options)
+const api_res=await fetch("https://api.openai.com/v1/chat/completions",options)
 const final_data= await api_res.json();
 let test=final_data.choices[0].message.content;
 
@@ -172,7 +172,7 @@ app.post('/api/t', async(req, res) => {
 
 
  try{
-const api_res=await fetch("YOUR OPEN_AI API",options)
+const api_res=await fetch("https://api.openai.com/v1/chat/completions",options)
 const final_data= await api_res.json();
 let test=final_data.choices[0].message.content;
 
